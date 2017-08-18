@@ -57,13 +57,14 @@ public class TestEmploye {
 	
 		
 		//TODO 8. Triez les employés par salaires descendants
+		//TODO 8. Triez les nom d'employés par ordre alphabetique
 		
 		
 		//Collections.sort(employeList);
 		Collections.sort(employeList, new ComparatorSalaire());
 		System.out.println(employeList);
 		
-		Collections.sort(employeList, new ComparatorSalaire());
+		Collections.sort(employeList, new ComparatorNom());
 		System.out.println(employeList);
 		
 	}
